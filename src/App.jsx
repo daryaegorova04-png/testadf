@@ -318,6 +318,7 @@ const VOCAB = [
   { de: 'kreieren', en: 'to create', ex: 'ein neues Design kreieren', topic: 'Kognition', difficulty: 2 },
   { de: 'schaffen', en: 'to create, to manage', ex: 'Kunst schaffen', topic: 'Kognition', difficulty: 2 },
   { de: 'erfordern', en: 'to require, to demand', ex: 'Das erfordert viel Geduld.', topic: 'Kognition', difficulty: 2 },
+  
   // --- Neutral / Allgemein (Batch 3) ---
   { de: 'erfahren', en: 'to learn (find out), to experience', ex: 'etwas Neues erfahren', topic: 'Allgemein', difficulty: 2 },
   { de: 'erzeugen', en: 'to produce, to generate', ex: 'Strom erzeugen', topic: 'Allgemein', difficulty: 2 },
