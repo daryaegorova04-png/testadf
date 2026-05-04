@@ -180,6 +180,144 @@ const VOCAB = [
   { de: 'infolge', en: 'as a result of', ex: 'infolge der Krise', topic: 'Phrase', difficulty: 3 },
   { de: 'sich beschäftigen mit', en: 'to deal with, to study', ex: 'sich mit dem Problem beschäftigen', topic: 'Phrase', difficulty: 2 },
   { de: 'sich befassen mit', en: 'to deal with', ex: 'sich mit der Frage befassen', topic: 'Phrase', difficulty: 3 },
+  // ====== Batch 2 — added later ======
+
+  // --- Schreiben ---
+  { de: 'verfassen', en: 'to write, to compose', ex: 'einen Aufsatz verfassen', topic: 'Schreiben', difficulty: 2 },
+  { de: 'erstellen', en: 'to create, to draw up', ex: 'einen Bericht erstellen', topic: 'Schreiben', difficulty: 2 },
+  { de: 'angeben', en: 'to specify, to state', ex: 'Bitte geben Sie Ihren Namen an.', topic: 'Schreiben', difficulty: 1 },
+  { de: 'festlegen', en: 'to set, to specify', ex: 'einen Termin festlegen', topic: 'Schreiben', difficulty: 2 },
+  { de: 'die Botschaft', en: 'message', ex: 'Die Botschaft des Textes ist klar.', topic: 'Schreiben', difficulty: 2 },
+  { de: 'die Voraussage', en: 'prediction', ex: 'eine Voraussage treffen', topic: 'Schreiben', difficulty: 3 },
+  { de: 'die Vorhersage', en: 'forecast, prediction', ex: 'die Wettervorhersage', topic: 'Schreiben', difficulty: 3 },
+  { de: 'einen Schluss ziehen', en: 'to draw a conclusion', ex: 'Daraus kann man einen Schluss ziehen.', topic: 'Schreiben', difficulty: 3 },
+
+  // --- Akademisch ---
+  { de: 'untersuchen', en: 'to investigate, to examine', ex: 'das Phänomen untersuchen', topic: 'Akademisch', difficulty: 2 },
+  { de: 'die Zukunftsforschung', en: 'futurism, future studies', ex: 'die Zukunftsforschung beschäftigt sich mit Trends', topic: 'Akademisch', difficulty: 3 },
+  { de: 'die Verwendung', en: 'use, application', ex: 'die Verwendung von KI', topic: 'Akademisch', difficulty: 3 },
+  { de: 'ausmachen', en: 'to account for, to make up', ex: 'Frauen machen 50% aus.', topic: 'Akademisch', difficulty: 2 },
+  { de: 'deuten', en: 'to interpret', ex: 'die Daten richtig deuten', topic: 'Akademisch', difficulty: 1 },
+  { de: 'das Durchschnittsgehalt', en: 'the average salary', ex: 'Das Durchschnittsgehalt liegt bei 3000 Euro.', topic: 'Akademisch', difficulty: 3 },
+
+  // --- Beruf ---
+  { de: 'entwickeln', en: 'to develop', ex: 'eine Strategie entwickeln', topic: 'Beruf', difficulty: 2 },
+  { de: 'durchführen', en: 'to carry out, to conduct', ex: 'eine Studie durchführen', topic: 'Beruf', difficulty: 2 },
+  { de: 'auftreten', en: 'to appear, to perform', ex: 'auf der Bühne auftreten', topic: 'Beruf', difficulty: 2 },
+  { de: 'der Auftritt', en: 'performance, appearance', ex: 'sein erster Auftritt', topic: 'Beruf', difficulty: 2 },
+  { de: 'ausstellen', en: 'to exhibit, to issue', ex: 'Kunst ausstellen', topic: 'Beruf', difficulty: 2 },
+  { de: 'verfolgen', en: 'to pursue, to follow', ex: 'ein Ziel verfolgen', topic: 'Beruf', difficulty: 2 },
+  { de: 'unabhängig', en: 'independent', ex: 'unabhängig arbeiten', topic: 'Beruf', difficulty: 2 },
+  { de: 'die Unabhängigkeit', en: 'independence', ex: 'finanzielle Unabhängigkeit', topic: 'Beruf', difficulty: 3 },
+  { de: 'praktizieren', en: 'to practise (professionally)', ex: 'als Arzt praktizieren', topic: 'Beruf', difficulty: 2 },
+  { de: 'fähig', en: 'able, capable', ex: 'zu allem fähig sein', topic: 'Beruf', difficulty: 1 },
+  { de: 'anpassungsfähig', en: 'adaptable', ex: 'anpassungsfähig im Beruf', topic: 'Beruf', difficulty: 3 },
+  { de: 'lernfähig', en: 'capable of learning', ex: 'ein lernfähiger Mitarbeiter', topic: 'Beruf', difficulty: 2 },
+  { de: 'zuverlässig', en: 'reliable', ex: 'eine zuverlässige Kollegin', topic: 'Beruf', difficulty: 2 },
+  { de: 'vertrauenswürdig', en: 'trustworthy', ex: 'eine vertrauenswürdige Person', topic: 'Beruf', difficulty: 3 },
+  { de: 'die Kompromissfähigkeit', en: 'ability to compromise', ex: 'Kompromissfähigkeit ist wichtig.', topic: 'Beruf', difficulty: 3 },
+  { de: 'das Werkzeug', en: 'tool', ex: 'das richtige Werkzeug benutzen', topic: 'Beruf', difficulty: 2 },
+
+  // --- Gesellschaft ---
+  { de: 'wohlhabend', en: 'wealthy, well-off', ex: 'eine wohlhabende Familie', topic: 'Gesellschaft', difficulty: 2 },
+  { de: 'gängig', en: 'common, standard', ex: 'das gängige Verfahren', topic: 'Gesellschaft', difficulty: 1 },
+  { de: 'häufig', en: 'often, frequent', ex: 'häufig diskutiert', topic: 'Gesellschaft', difficulty: 1 },
+  { de: 'üblich', en: 'common, usual', ex: 'das übliche Vorgehen', topic: 'Gesellschaft', difficulty: 1 },
+  { de: 'angemessen', en: 'appropriate, suitable', ex: 'angemessen reagieren', topic: 'Gesellschaft', difficulty: 2 },
+  { de: 'das Einfühlungsvermögen', en: 'empathy', ex: 'Einfühlungsvermögen zeigen', topic: 'Gesellschaft', difficulty: 3 },
+  { de: 'verklagen', en: 'to sue', ex: 'jemanden verklagen', topic: 'Gesellschaft', difficulty: 2 },
+  { de: 'einschränken', en: 'to restrict, to limit', ex: 'die Freiheit einschränken', topic: 'Gesellschaft', difficulty: 2 },
+  { de: 'begrenzen', en: 'to limit', ex: 'den Schaden begrenzen', topic: 'Gesellschaft', difficulty: 2 },
+  { de: 'vermeiden', en: 'to avoid', ex: 'Konflikte vermeiden', topic: 'Gesellschaft', difficulty: 2 },
+  { de: 'umgehen', en: 'to bypass, to avoid', ex: 'Probleme umgehen', topic: 'Gesellschaft', difficulty: 1 },
+  { de: 'eindämmen', en: 'to contain, to curb', ex: 'die Krise eindämmen', topic: 'Gesellschaft', difficulty: 2 },
+
+  // --- Stadt ---
+  { de: 'der Wolkenkratzer', en: 'skyscraper', ex: 'New Yorker Wolkenkratzer', topic: 'Stadt', difficulty: 3 },
+  { de: 'auf der Bühne', en: 'on stage', ex: 'auf der Bühne stehen', topic: 'Stadt', difficulty: 2 },
+  { de: 'nachgelegen', en: 'located nearby', ex: 'der nachgelegene Park', topic: 'Stadt', difficulty: 2 },
+  { de: 'die Ebene', en: 'level (physical, geographical)', ex: 'auf einer höheren Ebene', topic: 'Stadt', difficulty: 2 },
+  { de: 'das Niveau', en: 'level (mental, quality)', ex: 'auf hohem Niveau', topic: 'Stadt', difficulty: 2 },
+
+  // --- Gefühle ---
+  { de: 'die Wut', en: 'anger, rage', ex: 'voller Wut sein', topic: 'Gefühle', difficulty: 1 },
+  { de: 'das Gemüt', en: 'mind, soul, spirit', ex: 'ein heiteres Gemüt', topic: 'Gefühle', difficulty: 2 },
+  { de: 'drücken aufs Gemüt', en: 'to weigh on the mind', ex: 'Das Wetter drückt aufs Gemüt.', topic: 'Gefühle', difficulty: 3 },
+  { de: 'beeindruckt', en: 'impressed', ex: 'tief beeindruckt sein', topic: 'Gefühle', difficulty: 2 },
+  { de: 'der Eindruck', en: 'impression', ex: 'einen guten Eindruck machen', topic: 'Gefühle', difficulty: 2 },
+  { de: 'Gott sei Dank', en: 'thank God', ex: 'Gott sei Dank ist alles gut.', topic: 'Gefühle', difficulty: 2 },
+  { de: 'plötzlich', en: 'suddenly', ex: 'Plötzlich war alles still.', topic: 'Gefühle', difficulty: 2 },
+
+  // --- Sprache ---
+  { de: 'nämlich', en: 'namely, that is, because', ex: 'Er kommt nicht, er ist nämlich krank.', topic: 'Sprache', difficulty: 1 },
+  { de: 'eben', en: 'just, exactly', ex: 'Das ist eben so.', topic: 'Sprache', difficulty: 1 },
+  { de: 'kaum', en: 'hardly, barely', ex: 'Ich kann es kaum glauben.', topic: 'Sprache', difficulty: 1 },
+  { de: 'knapp', en: 'barely, scarcely', ex: 'knapp eine Stunde', topic: 'Sprache', difficulty: 1 },
+  { de: 'sofern', en: 'provided that, as long as', ex: 'sofern du Zeit hast', topic: 'Sprache', difficulty: 1 },
+  { de: 'abgesehen von', en: 'apart from', ex: 'abgesehen von dir', topic: 'Sprache', difficulty: 2 },
+  { de: 'überhaupt', en: 'at all, in general', ex: 'überhaupt nicht', topic: 'Sprache', difficulty: 2 },
+  { de: 'umsonst', en: 'for free, in vain', ex: 'umsonst arbeiten', topic: 'Sprache', difficulty: 1 },
+  { de: 'sonst', en: 'otherwise', ex: 'Sonst nichts?', topic: 'Sprache', difficulty: 1 },
+  { de: 'während', en: 'while, during', ex: 'während des Studiums', topic: 'Sprache', difficulty: 1 },
+  { de: 'solange', en: 'as long as', ex: 'solange du hier bist', topic: 'Sprache', difficulty: 1 },
+  { de: 'kürzlich', en: 'recently', ex: 'Ich war kürzlich dort.', topic: 'Sprache', difficulty: 2 },
+
+  // --- Umwelt ---
+  { de: 'schonen', en: 'to preserve, to spare', ex: 'die Umwelt schonen', topic: 'Umwelt', difficulty: 1 },
+  { de: 'der Ausstoß von Abgasen', en: 'exhaust gas emissions', ex: 'den Ausstoß von Abgasen reduzieren', topic: 'Umwelt', difficulty: 3 },
+  { de: 'vermehrt', en: 'increased, increasingly', ex: 'vermehrt auftreten', topic: 'Umwelt', difficulty: 2 },
+  { de: 'der Pendler', en: 'commuter', ex: 'tausende Pendler täglich', topic: 'Umwelt', difficulty: 2 },
+
+  // --- Alltag ---
+  { de: 'üben', en: 'to practise (a skill)', ex: 'Deutsch üben', topic: 'Alltag', difficulty: 1 },
+  { de: 'auf etw. zugreifen', en: 'to access', ex: 'auf Daten zugreifen', topic: 'Alltag', difficulty: 3 },
+  { de: 'zugreifen', en: 'to grab, to take', ex: 'beim Buffet zugreifen', topic: 'Alltag', difficulty: 2 },
+  { de: 'die Ausrede', en: 'excuse', ex: 'eine Ausrede finden', topic: 'Alltag', difficulty: 2 },
+  { de: 'verleihen', en: 'to award, to lend out', ex: 'einen Preis verleihen', topic: 'Alltag', difficulty: 2 },
+  { de: 'ausleihen', en: 'to borrow', ex: 'ein Buch ausleihen', topic: 'Alltag', difficulty: 2 },
+  { de: 'vermieten', en: 'to rent out', ex: 'eine Wohnung vermieten', topic: 'Alltag', difficulty: 2 },
+  { de: 'die Übernachtungsmöglichkeit', en: 'accommodation', ex: 'eine günstige Übernachtungsmöglichkeit', topic: 'Alltag', difficulty: 3 },
+  { de: 'dauern', en: 'to last, to take (time)', ex: 'Es dauert zwei Stunden.', topic: 'Alltag', difficulty: 1 },
+  { de: 'verwirklichen', en: 'to fulfil, to realise', ex: 'einen Traum verwirklichen', topic: 'Alltag', difficulty: 2 },
+  { de: 'die Einigung', en: 'agreement', ex: 'eine Einigung erzielen', topic: 'Alltag', difficulty: 2 },
+  { de: 'geeignet', en: 'suitable', ex: 'geeignet für Anfänger', topic: 'Alltag', difficulty: 2 },
+  { de: 'herumkommen um', en: 'to get around (avoid)', ex: 'Da kommt man nicht herum.', topic: 'Alltag', difficulty: 3 },
+
+  // --- Natur & Abenteuer ---
+  { de: 'entdecken', en: 'to discover', ex: 'eine neue Art entdecken', topic: 'Natur & Abenteuer', difficulty: 2 },
+  { de: 'erleben', en: 'to experience', ex: 'ein Abenteuer erleben', topic: 'Natur & Abenteuer', difficulty: 1 },
+  { de: 'erkunden', en: 'to explore', ex: 'die Stadt erkunden', topic: 'Natur & Abenteuer', difficulty: 2 },
+  { de: 'das Abenteuer', en: 'adventure', ex: 'auf ein Abenteuer gehen', topic: 'Natur & Abenteuer', difficulty: 2 },
+  { de: 'tauchen', en: 'to dive', ex: 'im Meer tauchen', topic: 'Natur & Abenteuer', difficulty: 1 },
+  { de: 'klettern', en: 'to climb', ex: 'auf einen Berg klettern', topic: 'Natur & Abenteuer', difficulty: 2 },
+  { de: 'beobachten', en: 'to observe, to watch', ex: 'Vögel beobachten', topic: 'Natur & Abenteuer', difficulty: 2 },
+  { de: 'meistern', en: 'to master, to overcome', ex: 'eine Herausforderung meistern', topic: 'Natur & Abenteuer', difficulty: 2 },
+  { de: 'die Meeresalgen', en: 'seaweed', ex: 'Meeresalgen treiben im Wasser', topic: 'Natur & Abenteuer', difficulty: 3 },
+  { de: 'der Mond', en: 'moon', ex: 'Der Mond scheint hell.', topic: 'Natur & Abenteuer', difficulty: 2 },
+  { de: 'zurückblicken', en: 'to look back', ex: 'auf das Jahr zurückblicken', topic: 'Natur & Abenteuer', difficulty: 2 },
+
+  // --- Sozialverhalten ---
+  { de: 'sich vorstellen', en: 'to introduce oneself', ex: 'Darf ich mich vorstellen?', topic: 'Sozialverhalten', difficulty: 3 },
+  { de: 'umarmen', en: 'to hug, to embrace', ex: 'einen Freund umarmen', topic: 'Sozialverhalten', difficulty: 1 },
+  { de: 'abklatschen', en: 'to give a high five', ex: 'Wir haben abgeklatscht.', topic: 'Sozialverhalten', difficulty: 2 },
+  { de: 'das Lächeln', en: 'smile', ex: 'ein freundliches Lächeln', topic: 'Sozialverhalten', difficulty: 2 },
+  { de: 'lächeln', en: 'to smile', ex: 'Sie lächelt mich an.', topic: 'Sozialverhalten', difficulty: 1 },
+  { de: 'lächelnd', en: 'smiling', ex: 'lächelnd antworten', topic: 'Sozialverhalten', difficulty: 2 },
+  { de: 'erwidern', en: 'to reply, to return', ex: 'einen Gruß erwidern', topic: 'Sozialverhalten', difficulty: 2 },
+  { de: 'begleiten', en: 'to accompany', ex: 'jemanden nach Hause begleiten', topic: 'Sozialverhalten', difficulty: 2 },
+  { de: 'einladen', en: 'to invite', ex: 'Freunde zum Essen einladen', topic: 'Sozialverhalten', difficulty: 2 },
+  { de: 'sich engagieren', en: 'to get involved, to commit', ex: 'sich für das Projekt engagieren', topic: 'Sozialverhalten', difficulty: 3 },
+  { de: 'die Weise', en: 'way, manner', ex: 'auf welche Weise?', topic: 'Sozialverhalten', difficulty: 2 },
+
+  // --- Kognition ---
+  { de: 'sich etw. überlegen', en: 'to consider, to think about', ex: 'Ich überlege es mir.', topic: 'Kognition', difficulty: 3 },
+  { de: 'sich etwas vorstellen', en: 'to imagine, to picture', ex: 'Stell dir das mal vor!', topic: 'Kognition', difficulty: 3 },
+  { de: 'ausdenken', en: 'to make up, to invent', ex: 'eine Geschichte ausdenken', topic: 'Kognition', difficulty: 2 },
+  { de: 'sich einfallen lassen', en: 'to come up with', ex: 'Lass dir etwas einfallen!', topic: 'Kognition', difficulty: 3 },
+  { de: 'erfinden', en: 'to invent, to make up', ex: 'eine Maschine erfinden', topic: 'Kognition', difficulty: 2 },
+  { de: 'kreieren', en: 'to create', ex: 'ein neues Design kreieren', topic: 'Kognition', difficulty: 2 },
+  { de: 'schaffen', en: 'to create, to manage', ex: 'Kunst schaffen', topic: 'Kognition', difficulty: 2 },
+  { de: 'erfordern', en: 'to require, to demand', ex: 'Das erfordert viel Geduld.', topic: 'Kognition', difficulty: 2 },
 ];
 
 // ======================================================
