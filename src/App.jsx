@@ -318,18 +318,6 @@ const VOCAB = [
   { de: 'kreieren', en: 'to create', ex: 'ein neues Design kreieren', topic: 'Kognition', difficulty: 2 },
   { de: 'schaffen', en: 'to create, to manage', ex: 'Kunst schaffen', topic: 'Kognition', difficulty: 2 },
   { de: 'erfordern', en: 'to require, to demand', ex: 'Das erfordert viel Geduld.', topic: 'Kognition', difficulty: 2 },
-  
-  // --- Neutral / Allgemein (Batch 3) ---
-  { de: 'erfahren', en: 'to learn (find out), to experience', ex: 'etwas Neues erfahren', topic: 'Allgemein', difficulty: 2 },
-  { de: 'erzeugen', en: 'to produce, to generate', ex: 'Strom erzeugen', topic: 'Allgemein', difficulty: 2 },
-  { de: 'erscheinen', en: 'to seem, to appear', ex: 'Es erscheint mir wichtig.', topic: 'Allgemein', difficulty: 2 },
-  { de: 'die Wirkung', en: 'effect, action', ex: 'die Wirkung des Medikaments', topic: 'Allgemein', difficulty: 2 },
-  { de: 'dicht', en: 'tight, dense, close', ex: 'dicht beieinander', topic: 'Allgemein', difficulty: 1 },
-  { de: 'der Gegenstand', en: 'object, subject', ex: 'ein wertvoller Gegenstand', topic: 'Allgemein', difficulty: 3 },
-  { de: 'auftauchen', en: 'to turn up, to appear', ex: 'plötzlich auftauchen', topic: 'Allgemein', difficulty: 2 },
-  { de: 'vertrauen', en: 'to trust', ex: 'jemandem vertrauen', topic: 'Allgemein', difficulty: 2 },
-  { de: 'das Vertrauen', en: 'trust', ex: 'Vertrauen aufbauen', topic: 'Allgemein', difficulty: 2 },
-  { de: 'betreuen', en: 'to supervise, to look after', ex: 'Studierende betreuen', topic: 'Allgemein', difficulty: 2 },
 ];
 
 // ======================================================
